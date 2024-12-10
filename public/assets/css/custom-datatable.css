@@ -1,0 +1,106 @@
+/* global */
+.float-right{ float:right; }
+.btn-light-blue{
+    background: #168eea!important;
+    border-color:#168eea!important;
+    color:#ffffff!important;
+}
+.btn-light-blue:hover{ opacity:0.8; }
+.btn-light:hover{ opacity:0.7; }
+.text-green{ color: #55ab59!important; }
+.btn-success{ background:#55ab59!important; }
+.text-xs{ font-size:0.75em!important; }
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position-x: 95%;
+    background-position-y: 10px;
+    color:#717171;
+}
+
+/* -------- datatable -------- */
+.thead-bg{
+    background:#B2E7FF;
+}
+.search-div{
+    margin-top:0;
+    margin-bottom:0.75em;
+}
+/* table */
+.custom-table {
+    font-size:0.9em;
+}
+.custom-table th, .custom-table td{
+    border-left:0!important;
+    border-right:0!important;
+    padding:0.75em 1em!important;
+}
+.custom-table thead th{
+    /*border:1px solid gray!important;*/
+    border-color:#B2E7FF!important;
+    border-bottom:1px solid #B2E7FF!important;
+}
+/* button */
+.btn-search{
+    padding:4px 16px!important;
+    font-size:0.9em!important;
+    font-weight: 500!important;
+    /*width:300px!important;*/
+}
+.custom-table .btn{
+    font-size:0.9em!important;
+    padding:1px 6px!important;
+}
+.custom-table .btn:hover{
+    opacity:0.9!important;
+}
+.custom-table .btn-success{
+    background: #189e39!important;
+    border-color: #189e39!important;
+    color: #ffffff!important;
+}
+/* header sorting arrow */
+table.dataTable.table-sm .sorting:before, table.dataTable.table-sm .sorting_asc:before, table.dataTable.table-sm .sorting_desc:before {
+    color: #1f1d1d;
+    font-size: 0.9em;
+}
+table.dataTable.table thead th.sorting:after, table.dataTable.table thead td.sorting:after {
+    color: #ffffff00;
+    font-size: 0.9em;
+}
+table.dataTable.table thead th.sorting:after, table.dataTable.table thead th.sorting_asc:after, table.dataTable.table thead th.sorting_desc:after, table.dataTable.table thead td.sorting:after, table.dataTable.table thead td.sorting_asc:after, table.dataTable.table thead td.sorting_desc:after {
+    right: 5px;
+    font-size: 0.9em;
+}
+/* page length info */
+div.dataTables_wrapper div.dataTables_info {
+    margin-left:0.5em!important;
+    font-size:0.8em!important;
+}
+/* pagination */
+div.dataTables_wrapper div.dataTables_paginate {
+    font-size:0.8em!important;
+}
+
+/* special-table */
+.special-table td, .special-table th{
+    padding-left:0.5em!important;
+    padding-right:0.5em!important;
+}
+.border-red{ border:1px solid red!important; }
+
+/* salesman call */
+.special-option{
+    width:120px;
+    height:28px;
+    background: red;
+    color:#ffffff;
+    padding:0.25rem;
+    text-align: center;
+}
+/* for master call user task status */
+.text-red-box{ background:red; color:#ffffff;padding:0.15em 0.35em; }
