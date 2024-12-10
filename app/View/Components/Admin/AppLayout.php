@@ -18,8 +18,6 @@ class AppLayout extends Component
 
     public function render(): Factory|View
     {
-        // dd("Shibah");
-
         return view('layouts.admin.app');
     }
 }

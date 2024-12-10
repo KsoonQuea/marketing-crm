@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => 'Nexus Capital',
+    'site_title' => 'Grand Pine CRM',
 ];
